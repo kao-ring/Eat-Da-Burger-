@@ -1,6 +1,7 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function () {
   $(".change-devour").on("click", function (event) {
+    console.log("オンクリックだよ。");
     var id = $(this).data("id");
     var newDevour = $(this).data("newdevour");
 
@@ -21,10 +22,11 @@ $(function () {
 
   $(".create-form").on("submit", function (event) {
     // Make sure to preventDefault on a submit event.
+    console.log("オーダオー入ったよ。");
     event.preventDefault();
 
     var newBurger = {
-      name: $("#ca").val().trim(),
+      name: $("#bg").val().trim(),
       devoured: $("[name=devour]:checked").val().trim(),
     };
 

@@ -10,14 +10,14 @@ ul {
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background-color: lightgoldenrodyellow;
 }
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
+/* .create-update-form {
   padding: 5px;
   margin: 5px;
   background: aqua;
@@ -25,4 +25,4 @@ li {
 
 .form-group {
   margin-bottom: 5px;
-}
+} */
