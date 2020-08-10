@@ -8,6 +8,8 @@
 
 - Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
+**Heroku Link:** https://eat-da-burger-kiki.herokuapp.com/
+
 ![](https://img.shields.io/github/license/kao-ring/Eat-Da-Burger-?style=plastic&logo=appveyor)
 
 ## Table of Contents
