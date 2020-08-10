@@ -1,11 +1,26 @@
-<li>
+{{#if devoured}}
+{{!-- <li>
 	{{id}}.
 	{{name}}
-	{{#if devoured}}
-	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
-		Devoured!
-	</button>
-	{{else}}
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
-	{{/if}}
+
+
+</li> --}}
+<li>
+	<div class="text-left list" style="float: left;">
+		{{id}}.
+		{{name}}
+	</div>
+	<div class="text-right list"><button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
+			Devoured!
+		</button>
+	</div>
 </li>
+{{else}}
+<li class="devouredB">
+	<div class="text-left list" style="float: left;">
+		{{id}}.
+		{{name}}
+	</div>
+	<div class="text-right list"><button class="delete-burger" data-id="{{this.id}}">DELETE!</button></div>
+</li>
+{{/if}}

@@ -13,6 +13,16 @@ li {
   background-color: lightgoldenrodyellow;
 }
 
+.list {
+  background-color: inherit;
+}
+
+.devouredB,
+.delete-burger {
+  background-color: lightgray;
+  color: darkgrey;
+}
+
 .label {
   font-weight: bold;
 }

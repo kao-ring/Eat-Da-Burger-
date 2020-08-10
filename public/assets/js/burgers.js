@@ -22,16 +22,16 @@ $(function () {
 
   $(".create-form").on("submit", function (event) {
     // Make sure to preventDefault on a submit event.
-    console.log("オーダオー入ったよ。");
+    // console.log("オーダオー入ったよ。");
     event.preventDefault();
 
     var newBurger = {
       name: $("#bg").val().trim(),
-      devoured: $("[name=devour]:checked").val().trim(),
+      devoured: $("devour").val(),
     };
-
+    // console.log(newBurger);
     // Send the POST request.
-    $.ajax("/api/burgerss", {
+    $.ajax("/api/burgers", {
       type: "POST",
       data: newBurger,
     }).then(function () {
