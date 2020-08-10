@@ -46,7 +46,7 @@ Run the node server locally.
 node server.js
 ```
 
-Finally, open your browser and connect to http://localhost:3000/.
+Finally, open your browser and connect to http://localhost:8080/.
 
 ## Usage
 
